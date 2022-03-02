@@ -1,14 +1,4 @@
 /*=========================================================================================================
-	Linguagem C, o curso definitivo
-	AULA CARACTERES
-	MÓDULO 5 - AULA 3
-
-
-
-==========================================================================================================*/
-
-
-/*=========================================================================================================
 
 
 ==========================================================================================================*/
@@ -17,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*-------------- Função main ---------------------- */
+/*-------------- Funï¿½ï¿½o main ---------------------- */
 
 main()
 
@@ -40,7 +30,7 @@ main()
 	printf("%d\n", soma); 
 	}
 	
-	system("PAUSE"); /*-------------- Pausa execução ----------------------------------------------------- */
+	system("PAUSE"); /*-------------- Pausa execuï¿½ï¿½o ----------------------------------------------------- */
 	return 0;	     /*-------------- retorna 0, se main for executada corretamente ---------------------- */
 	
 }
@@ -52,7 +42,7 @@ main()
 		printf("Digite um numero: ");
 		scanf("%d", &numero);	
 	
-		if(numero%2) break;															// O % indica o resto da divisão, quanto tem um dois do lado, vai verificar se é o restante é par ou impar, se for par, nesse caso, vai dar Tudo Ok //
+		if(numero%2) break;															// O % indica o resto da divisï¿½o, quanto tem um dois do lado, vai verificar se ï¿½ o restante ï¿½ par ou impar, se for par, nesse caso, vai dar Tudo Ok //
 		printf("Tudo ok\n");
 	}
 	printf("Erro, o numero \x82 impar\n");	
